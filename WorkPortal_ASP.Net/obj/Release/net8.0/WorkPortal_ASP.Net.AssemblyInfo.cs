@@ -13,7 +13,7 @@ using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-WorkPortal_ASP.Net-f556f421-cc3e-43f3-92fe-15746c3b8f10")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorkPortal_ASP.Net")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c9563dcb0c4629a1a8193c8a1c9926ab3ac78a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorkPortal_ASP.Net")]
