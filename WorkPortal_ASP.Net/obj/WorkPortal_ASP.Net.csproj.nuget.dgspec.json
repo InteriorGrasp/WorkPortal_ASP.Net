@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj": {}
+    "C:\\Users\\himan\\Source\\Repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj": {
+    "C:\\Users\\himan\\Source\\Repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj",
+        "projectUniqueName": "C:\\Users\\himan\\Source\\Repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj",
         "projectName": "WorkPortal_ASP.Net",
-        "projectPath": "D:\\GitHub\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj",
+        "projectPath": "C:\\Users\\himan\\Source\\Repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj",
         "packagesPath": "C:\\Users\\himan\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\obj\\",
+        "outputPath": "C:\\Users\\himan\\Source\\Repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\himan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,9 +61,17 @@
               "target": "Package",
               "version": "[8.0.5, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[8.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
