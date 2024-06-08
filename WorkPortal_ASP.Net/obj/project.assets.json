@@ -4557,11 +4557,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.ASP\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj",
+      "projectUniqueName": "D:\\GitHub\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj",
       "projectName": "WorkPortal_ASP.Net",
-      "projectPath": "D:\\.ASP\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj",
+      "projectPath": "D:\\GitHub\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj",
       "packagesPath": "C:\\Users\\himan\\.nuget\\packages\\",
-      "outputPath": "D:\\.ASP\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\obj\\",
+      "outputPath": "D:\\GitHub\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\himan\\AppData\\Roaming\\NuGet\\NuGet.Config",
