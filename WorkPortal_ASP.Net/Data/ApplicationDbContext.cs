@@ -14,7 +14,7 @@ namespace WorkPortal_ASP.Net.Data
         //Whenever I want to add something to my database I add this DBSET
         //Model names are singular
         //DBsets are PLURAL!
-        public DbSet<Employee> Employees { get; set; }
+        public DbSet <Employee> Employees { get; set; }
 
         public DbSet <Attendance> Attendances { get; set; }
 

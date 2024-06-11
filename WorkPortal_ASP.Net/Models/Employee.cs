@@ -26,7 +26,7 @@ namespace WorkPortal_ASP.Net.Models
 
         //Parent reference
         //Because from 1 Department we have many employees
-        [Required]
+        [Required]  
         public Department? Department { get; set; }
 
         //Child reference

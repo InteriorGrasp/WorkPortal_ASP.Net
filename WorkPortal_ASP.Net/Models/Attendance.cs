@@ -22,7 +22,7 @@ namespace WorkPortal_ASP.Net.Models
         [Required]
         public int TotalHours { get; set; }
 
-        //FK
+        //FK : is the primary key of the parent table 
         public int EmployeeId { get; set; }
 
         //Parent reference
