@@ -3,7 +3,8 @@
 namespace WorkPortal_ASP.Net.Models
 {
     public class Attendance
-    {
+    {   
+        //PK
         [Required]
         public int AttendanceId { get; set; }
 
@@ -21,8 +22,11 @@ namespace WorkPortal_ASP.Net.Models
         [Required]
         public int TotalHours { get; set; }
 
+        //FK
+        public int EmployeeId { get; set; }
+
         //Parent reference
-        public Employee? EmployeeId { get; set; }
+        public Employee? Employee { get; set; }
 
         
 

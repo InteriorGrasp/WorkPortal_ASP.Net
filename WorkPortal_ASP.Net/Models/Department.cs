@@ -3,7 +3,8 @@
 namespace WorkPortal_ASP.Net.Models
 {
     public class Department
-    {
+    {   
+        //PK
         [Required]
         public int DepartmentId { get; set; }
 
@@ -39,7 +40,7 @@ namespace WorkPortal_ASP.Net.Models
 
         //Child Reference
         //Because from 1 department we can have many employees 
-        public List<Employee> Employees { get; set;}
+        public List<Employee>? Employees { get; set;}
 
     }
 }

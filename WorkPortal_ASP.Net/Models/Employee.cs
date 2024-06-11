@@ -22,14 +22,16 @@ namespace WorkPortal_ASP.Net.Models
         public string Email { get; set; }
 
         // FK
+        public int DepartmentId { get; set; }
+
         //Parent reference
         //Because from 1 Department we have many employees
         [Required]
-        public Department? DepartmentId { get; set; }
+        public Department? Department { get; set; }
 
         //Child reference
         //Because from One employee we have many attendance
-        public List<Attendance>? Attendance {get;set;}
+        public List<Attendance>? Attendances {get;set;}
 
     }
 }
