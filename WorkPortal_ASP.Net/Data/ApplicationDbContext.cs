@@ -20,6 +20,10 @@ namespace WorkPortal_ASP.Net.Data
 
         public DbSet <Department> Departments { get; set; }
 
+        public DbSet <AdminLogin> AdminLogins { get; set; }
+
+        public DbSet <EmployeeLogin> EmployeeLogin { get;set; }
+
 
 
     }

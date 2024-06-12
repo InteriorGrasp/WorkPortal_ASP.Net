@@ -6,10 +6,9 @@ namespace WorkPortal_ASP.Net.Models
     public class AdminLogin
     {
         //Primary KeY
-        [Required(ErrorMessage = "Admin ID is required.")]
-        [StringLength(50, ErrorMessage = "Admin ID cannot be longer than 50 characters.")]
-        [Display(Name = "Admin ID")]
-        public string AdminId { get; set; }
+        [Key]
+        [Required]
+        public string AdminLoginId { get; set; }
 
         [Required(ErrorMessage = "Password is required.")]
         [StringLength(100, MinimumLength = 6, ErrorMessage = "Password must be at least 6 characters long and not exceed 100 characters.")]
@@ -23,9 +22,7 @@ namespace WorkPortal_ASP.Net.Models
         public Department? Department { get; set; }
 
         //Foreign Key
-        [Required(ErrorMessage = "Department ID is required.")]
-        [ForeignKey("Department")]
-        [Display(Name = "Department ID")]
+        [Required]
         public int DepartmentId { get; set; }
 
     }
