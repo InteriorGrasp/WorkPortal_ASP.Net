@@ -33,5 +33,9 @@ namespace WorkPortal_ASP.Net.Models
         //Because from One employee we have many attendance
         public List<Attendance>? Attendances {get;set;}
 
+        //Child Reference
+        //Because From One employee we have many payments'
+        public List<Payroll>? Payrolls { get;set;}
+
     }
 }

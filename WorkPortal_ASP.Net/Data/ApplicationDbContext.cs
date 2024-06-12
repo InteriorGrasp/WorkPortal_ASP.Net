@@ -24,7 +24,7 @@ namespace WorkPortal_ASP.Net.Data
 
         public DbSet <EmployeeLogin> EmployeeLogin { get;set; }
 
-
+        public DbSet<Payroll> Payrolls { get; set; }
 
     }
 }
