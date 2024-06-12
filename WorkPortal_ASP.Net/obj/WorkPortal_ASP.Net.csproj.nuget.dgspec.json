@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\himan\\Source\\Repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj": {}
+    "C:\\Users\\himan\\source\\repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj": {}
   },
   "projects": {
-    "C:\\Users\\himan\\Source\\Repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj": {
+    "C:\\Users\\himan\\source\\repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\himan\\Source\\Repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj",
+        "projectUniqueName": "C:\\Users\\himan\\source\\repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj",
         "projectName": "WorkPortal_ASP.Net",
-        "projectPath": "C:\\Users\\himan\\Source\\Repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj",
+        "projectPath": "C:\\Users\\himan\\source\\repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj",
         "packagesPath": "C:\\Users\\himan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\himan\\Source\\Repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\obj\\",
+        "outputPath": "C:\\Users\\himan\\source\\repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\himan\\AppData\\Roaming\\NuGet\\NuGet.Config",
