@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WorkPortal_ASP.Net.Data;
 
@@ -11,9 +12,11 @@ using WorkPortal_ASP.Net.Data;
 namespace WorkPortal_ASP.Net.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240612225846_2NewChangesWednesday12")]
+    partial class _2NewChangesWednesday12
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -388,34 +391,6 @@ namespace WorkPortal_ASP.Net.Data.Migrations
                     b.ToTable("EmployeeLogin");
                 });
 
-            modelBuilder.Entity("WorkPortal_ASP.Net.Models.Payroll", b =>
-                {
-                    b.Property<int>("PayrollId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PayrollId"));
-
-                    b.Property<int>("Account")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Amount")
-                        .HasColumnType("int");
-
-                    b.Property<int>("EmployeeId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("PaymentDate")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("PayrollId");
-
-                    b.HasIndex("EmployeeId");
-
-                    b.ToTable("Payrolls");
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -511,17 +486,6 @@ namespace WorkPortal_ASP.Net.Data.Migrations
                     b.Navigation("Employee");
                 });
 
-            modelBuilder.Entity("WorkPortal_ASP.Net.Models.Payroll", b =>
-                {
-                    b.HasOne("WorkPortal_ASP.Net.Models.Employee", "Employee")
-                        .WithMany("Payrolls")
-                        .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Employee");
-                });
-
             modelBuilder.Entity("WorkPortal_ASP.Net.Models.Department", b =>
                 {
                     b.Navigation("Employees");
@@ -530,8 +494,6 @@ namespace WorkPortal_ASP.Net.Data.Migrations
             modelBuilder.Entity("WorkPortal_ASP.Net.Models.Employee", b =>
                 {
                     b.Navigation("Attendances");
-
-                    b.Navigation("Payrolls");
                 });
 #pragma warning restore 612, 618
         }

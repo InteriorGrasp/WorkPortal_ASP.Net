@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WorkPortal_ASP.Net.Data;
 
@@ -11,9 +12,11 @@ using WorkPortal_ASP.Net.Data;
 namespace WorkPortal_ASP.Net.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240611031403_AddingModels")]
+    partial class AddingModels
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -224,26 +227,6 @@ namespace WorkPortal_ASP.Net.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("WorkPortal_ASP.Net.Models.AdminLogin", b =>
-                {
-                    b.Property<string>("AdminLoginId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("DepartmentId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.HasKey("AdminLoginId");
-
-                    b.HasIndex("DepartmentId");
-
-                    b.ToTable("AdminLogins");
-                });
-
             modelBuilder.Entity("WorkPortal_ASP.Net.Models.Attendance", b =>
                 {
                     b.Property<int>("AttendanceId")
@@ -366,56 +349,6 @@ namespace WorkPortal_ASP.Net.Data.Migrations
                     b.ToTable("Employees");
                 });
 
-            modelBuilder.Entity("WorkPortal_ASP.Net.Models.EmployeeLogin", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("EmployeeId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("EmployeeId");
-
-                    b.ToTable("EmployeeLogin");
-                });
-
-            modelBuilder.Entity("WorkPortal_ASP.Net.Models.Payroll", b =>
-                {
-                    b.Property<int>("PayrollId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PayrollId"));
-
-                    b.Property<int>("Account")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Amount")
-                        .HasColumnType("int");
-
-                    b.Property<int>("EmployeeId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("PaymentDate")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("PayrollId");
-
-                    b.HasIndex("EmployeeId");
-
-                    b.ToTable("Payrolls");
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -467,17 +400,6 @@ namespace WorkPortal_ASP.Net.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("WorkPortal_ASP.Net.Models.AdminLogin", b =>
-                {
-                    b.HasOne("WorkPortal_ASP.Net.Models.Department", "Department")
-                        .WithMany()
-                        .HasForeignKey("DepartmentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Department");
-                });
-
             modelBuilder.Entity("WorkPortal_ASP.Net.Models.Attendance", b =>
                 {
                     b.HasOne("WorkPortal_ASP.Net.Models.Employee", "Employee")
@@ -500,28 +422,6 @@ namespace WorkPortal_ASP.Net.Data.Migrations
                     b.Navigation("Department");
                 });
 
-            modelBuilder.Entity("WorkPortal_ASP.Net.Models.EmployeeLogin", b =>
-                {
-                    b.HasOne("WorkPortal_ASP.Net.Models.Employee", "Employee")
-                        .WithMany()
-                        .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Employee");
-                });
-
-            modelBuilder.Entity("WorkPortal_ASP.Net.Models.Payroll", b =>
-                {
-                    b.HasOne("WorkPortal_ASP.Net.Models.Employee", "Employee")
-                        .WithMany("Payrolls")
-                        .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Employee");
-                });
-
             modelBuilder.Entity("WorkPortal_ASP.Net.Models.Department", b =>
                 {
                     b.Navigation("Employees");
@@ -530,8 +430,6 @@ namespace WorkPortal_ASP.Net.Data.Migrations
             modelBuilder.Entity("WorkPortal_ASP.Net.Models.Employee", b =>
                 {
                     b.Navigation("Attendances");
-
-                    b.Navigation("Payrolls");
                 });
 #pragma warning restore 612, 618
         }
