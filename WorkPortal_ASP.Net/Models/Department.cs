@@ -42,5 +42,7 @@ namespace WorkPortal_ASP.Net.Models
         //Because from 1 department we can have many employees 
         public List<Employee>? Employees { get; set;}
 
+     
+
     }
 }

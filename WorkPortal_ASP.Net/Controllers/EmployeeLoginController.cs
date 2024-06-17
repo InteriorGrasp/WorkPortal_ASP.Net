@@ -22,7 +22,7 @@ namespace WorkPortal_ASP.Net.Controllers
         // GET: EmployeeLogin
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.EmployeeLogin.Include(e => e.Employee);
+            var applicationDbContext = _context.EmployeeLogins.Include(e => e.Employee);
             return View(await applicationDbContext.ToListAsync());
         }
 
@@ -34,7 +34,7 @@ namespace WorkPortal_ASP.Net.Controllers
                 return NotFound();
             }
 
-            var employeeLogin = await _context.EmployeeLogin
+            var employeeLogin = await _context.EmployeeLogins
                 .Include(e => e.Employee)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (employeeLogin == null)
@@ -77,7 +77,7 @@ namespace WorkPortal_ASP.Net.Controllers
                 return NotFound();
             }
 
-            var employeeLogin = await _context.EmployeeLogin.FindAsync(id);
+            var employeeLogin = await _context.EmployeeLogins.FindAsync(id);
             if (employeeLogin == null)
             {
                 return NotFound();
@@ -130,7 +130,7 @@ namespace WorkPortal_ASP.Net.Controllers
                 return NotFound();
             }
 
-            var employeeLogin = await _context.EmployeeLogin
+            var employeeLogin = await _context.EmployeeLogins
                 .Include(e => e.Employee)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (employeeLogin == null)
@@ -146,10 +146,10 @@ namespace WorkPortal_ASP.Net.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var employeeLogin = await _context.EmployeeLogin.FindAsync(id);
+            var employeeLogin = await _context.EmployeeLogins.FindAsync(id);
             if (employeeLogin != null)
             {
-                _context.EmployeeLogin.Remove(employeeLogin);
+                _context.EmployeeLogins.Remove(employeeLogin);
             }
 
             await _context.SaveChangesAsync();
@@ -158,7 +158,7 @@ namespace WorkPortal_ASP.Net.Controllers
 
         private bool EmployeeLoginExists(int id)
         {
-            return _context.EmployeeLogin.Any(e => e.Id == id);
+            return _context.EmployeeLogins.Any(e => e.Id == id);
         }
     }
 }
