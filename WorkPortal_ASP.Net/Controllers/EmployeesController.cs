@@ -139,7 +139,7 @@ namespace WorkPortal_ASP.Net.Controllers
             }
 
             return View(employee);
-        }
+        }   
 
         // POST: Employees/Delete/5
         [HttpPost, ActionName("Delete")]

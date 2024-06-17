@@ -1,59 +1,15 @@
 ﻿@model IEnumerable<WorkPortal_ASP.Net.Models.Employee>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Dashboard";
 }
 
-<h1>Index</h1>
+<h1>Welcome to the Dashboard!</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Address)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PhoneNumber)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Department)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Address)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PhoneNumber)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Department.Address)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.EmployeeId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.EmployeeId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.EmployeeId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="Details"><button>Profile</button></a>
+@*<a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="Punch"><button>Punch</button></a>
+<a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="Pay"><button>Pay</button></a>
+<a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="Attendence"><button>Attendance</button></a>
+<a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="TimeCard"><button>Timecard</button></a>
+<a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="Schedule"><button>My Schedule</button></a>
+*@
