@@ -22,10 +22,18 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="Index">Employee</a>
+                        </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Department" asp-action="Index">Department</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Attendance" asp-action="Index">Attendance</a>
+                        </li>
+
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
@@ -40,7 +48,8 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; @DateTime.Now.Year - PRP - Himanshu(200564730) - Sebastian(200558953) - Priyanshi(200562506) - 24S Server-Side Scripting-ASP.NET - 02 - <a asp-area="" asp-controller="Admin" asp-action="Index">Admin</a>
+            &copy; @DateTime.Now.Year - PRP - Himanshu(200564730) - Sebastian(200558953) - Priyanshi(200562506) - 24S Server-Side Scripting-ASP.NET - 02
+            <a asp-area="" asp-controller="AdminLogin" asp-action="Index">Admin</a> 
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
