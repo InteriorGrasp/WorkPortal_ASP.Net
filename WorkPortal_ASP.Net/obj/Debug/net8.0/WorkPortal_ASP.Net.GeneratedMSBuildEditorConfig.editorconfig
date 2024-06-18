@@ -17,199 +17,203 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WorkPortal_ASP.Net
 build_property.RootNamespace = WorkPortal_ASP.Net
-build_property.ProjectDir = C:\Users\sebas\source\repos\InteriorGrasp\WorkPortal_ASP.Net\WorkPortal_ASP.Net\
+build_property.ProjectDir = C:\Users\himan\source\repos\InteriorGrasp\WorkPortal_ASP.Net\WorkPortal_ASP.Net\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\sebas\source\repos\InteriorGrasp\WorkPortal_ASP.Net\WorkPortal_ASP.Net
+build_property.MSBuildProjectDirectory = C:\Users\himan\source\repos\InteriorGrasp\WorkPortal_ASP.Net\WorkPortal_ASP.Net
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/AdminLogin/Create.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/AdminLogin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Mb2dpblxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/AdminLogin/Delete.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/AdminLogin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Mb2dpblxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/AdminLogin/Details.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/AdminLogin/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Mb2dpblxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/AdminLogin/Edit.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/AdminLogin/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Mb2dpblxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/AdminLogin/Index.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/AdminLogin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Mb2dpblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Admin/Index.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Attendance/Create.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Attendance/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Attendance/Delete.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Attendance/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Attendance/Details.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Attendance/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Attendance/Edit.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Attendance/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Attendance/Index.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Attendance/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Department/Create.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Department/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Department/Delete.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Department/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Department/Details.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Department/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Department/Edit.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Department/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Department/Index.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Department/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/EmployeeLogin/Create.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/EmployeeLogin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVMb2dpblxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/EmployeeLogin/Delete.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/EmployeeLogin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVMb2dpblxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/EmployeeLogin/Details.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/EmployeeLogin/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVMb2dpblxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/EmployeeLogin/Edit.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/EmployeeLogin/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVMb2dpblxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/EmployeeLogin/Index.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/EmployeeLogin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVMb2dpblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Employees/Create.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Employees/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Employees/Delete.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Employees/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Employees/Details.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Employees/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Employees/Edit.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Employees/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Employees/Index.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Employees/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Home/Index.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Home/Privacy.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Payroll/Create.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Payroll/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5cm9sbFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Payroll/Delete.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Payroll/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5cm9sbFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Payroll/Details.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Payroll/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5cm9sbFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Payroll/Edit.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Payroll/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5cm9sbFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Payroll/Index.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Payroll/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5cm9sbFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Shared/Error.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/_ViewImports.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/_ViewStart.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sebas/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Shared/_Layout.cshtml]
+[C:/Users/himan/source/repos/InteriorGrasp/WorkPortal_ASP.Net/WorkPortal_ASP.Net/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-r7fnu47k2y
