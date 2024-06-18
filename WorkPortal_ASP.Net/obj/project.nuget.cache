@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BSraptXOG9v/ATRiQOWgnKYxD9pXpAMRE8cWhL07z8KXsflh3xKwhQaAFGbAm+KEdQrh/6IyDdQ1EdmwCzsOwA==",
+  "dgSpecHash": "4AzqTWrqaSSx6+U87R6Wu2FwyM4RwBYfShYCN0x8TFLie7SArWWUFKKYeXwgJ2KPeajNZ1KovaxeHuLiU80+HQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\himan\\source\\repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\himan\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\himan\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\himan\\.nuget\\packages\\bootstrap\\5.3.3\\bootstrap.5.3.3.nupkg.sha512",
     "C:\\Users\\himan\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\himan\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\himan\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
@@ -180,5 +181,12 @@
     "C:\\Users\\himan\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\himan\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\himan\\source\\repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
