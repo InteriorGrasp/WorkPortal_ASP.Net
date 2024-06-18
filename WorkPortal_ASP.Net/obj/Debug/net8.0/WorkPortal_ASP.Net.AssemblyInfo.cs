@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorkPortal_ASP.Net")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88d543921108781f7ac72e622adee9f3f4c20136")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdb05a0fcccda143c7738036d3b2292b474f1654")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorkPortal_ASP.Net")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorkPortal_ASP.Net")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
