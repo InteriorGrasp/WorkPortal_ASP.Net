@@ -11,12 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-WorkPortal_ASP.Net-f556f421-cc3e-43f3-92fe-15746c3b8f10")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorkPortal_ASP.Net")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba3bc00150e4087efbfefe6ff81fff0863ffacb3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7e6c5ec316672383987b76e710d170436c611ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorkPortal_ASP.Net")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorkPortal_ASP.Net")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

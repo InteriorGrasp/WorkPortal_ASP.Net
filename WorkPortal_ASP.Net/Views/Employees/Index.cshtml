@@ -1,22 +1,48 @@
 ﻿@model IEnumerable<WorkPortal_ASP.Net.Models.Employee>
 
 @{
-<<<<<<< HEAD
-    ViewData["Title"] = "Dashboard";
-}
-
-<h1>Welcome to the Dashboard!</h1>
-=======
     ViewData["Title"] = "Employees";
 }
+<style>
+ 
+    #color {
+        font-family: Arial, sans-serif;
+        padding-top:10vh;
+        height: 100vh;
+        background: linear-gradient(to bottom, #87cefa, #007bff); /* Light blue to dark blue gradient */
+        color: #fff; /* Text color */
+        text-align: center; /* Center text horizontally */
+    }
+    h1 {
+        color: #343a40;
+        margin-bottom: 20px;
+    }
 
-<h1>Employees</h1>
->>>>>>> 048e616496288cecd9133010e0b82b290cb638af
+    p {
+        font-size: 1.1rem;
+        color: #6c757d;
+    }
 
-<a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="Details"><button>Profile</button></a>
-@*<a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="Punch"><button>Punch</button></a>
-<a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="Pay"><button>Pay</button></a>
-<a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="Attendence"><button>Attendance</button></a>
-<a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="TimeCard"><button>Timecard</button></a>
-<a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="Schedule"><button>My Schedule</button></a>
-*@
+    button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+</style>
+<div id="color">
+<h1>Welcome to the Dashboard!</h1>
+<h1>Welcome, @User.Identity.Name!</h1>
+<p>This page will contain Employee payroll info.</p>
+<a asp-controller="Attendance" asp-action="index"><button>Attendance</button></a>
+</div>
+
