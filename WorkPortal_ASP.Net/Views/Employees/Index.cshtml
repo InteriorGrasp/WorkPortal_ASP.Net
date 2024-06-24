@@ -3,46 +3,57 @@
 @{
     ViewData["Title"] = "Employees";
 }
-<style>
- 
-    #color {
-        font-family: Arial, sans-serif;
-        padding-top:10vh;
-        height: 100vh;
-        background: linear-gradient(to bottom, #87cefa, #007bff); /* Light blue to dark blue gradient */
-        color: #fff; /* Text color */
-        text-align: center; /* Center text horizontally */
-    }
-    h1 {
-        color: #343a40;
-        margin-bottom: 20px;
-    }
-
-    p {
-        font-size: 1.1rem;
-        color: #6c757d;
-    }
-
-    button {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        font-size: 1rem;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
-
-        button:hover {
-            background-color: #0056b3;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        #color {
+            font-family: Arial, sans-serif;
+            padding-top: 10vh;
+            height: 100vh;
+            background: linear-gradient(to bottom, #87cefa, #007bff); /* Light blue to dark blue gradient */
+            color: #fff; /* Text color */
+            text-align: center; /* Center text horizontally */
         }
-</style>
-<div id="color">
-<h1>Welcome to the Dashboard!</h1>
-<h1>Welcome, @User.Identity.Name!</h1>
-<p>This page will contain Employee payroll info.</p>
-<a asp-controller="Attendance" asp-action="index"><button>Attendance</button></a>
-</div>
 
+        h1 {
+            color: #343a40;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #6c757d;
+        }
+
+        button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <div id="color">
+        <h1>Welcome to the Dashboard!</h1>
+        <h1>Welcome, @User.Identity.Name!</h1>
+        <p>This page will contain Employee payroll info.</p>
+        <form asp-controller="Attendance" asp-action="Index" method="get">
+            <button type="submit">Attendance</button>
+        </form>
+    </div>
+</body>
+</html>
