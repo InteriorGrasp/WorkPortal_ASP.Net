@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7JxrSyfZqeH0oHUo06Di5o7g+af7cPCxq3+VB0Xu8Yqja7YkGVpfmchrW1nAtYuGQVn9biEfkhwTKR3yDKu7QA==",
+  "dgSpecHash": "LfzdSak46tVhAajiMLhn9/atGR5LwM+Pb/E1bsVijR77VPe6oQFdUZOgwFQX74rxSZ7FuJqeyWrCMCcMMxRXlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sebas\\OneDrive\\Documents\\GEORGIAN\\SEMESTER 3\\ASP.NET\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj",
+  "projectFilePath": "C:\\Users\\sebas\\source\\repos\\InteriorGrasp\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sebas\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
