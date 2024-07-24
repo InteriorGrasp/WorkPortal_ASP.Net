@@ -11,8 +11,19 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+//enable Google auth before our app starts
+//access the config values in appsettings.json
+//var configuration = builder.Configuration;
+//builder.Services.AddAuthentication()
+//    .AddGoogle(options =>
+//    {
+//        options.ClientId = configuration["Authentication:Google:ClientId"];
+//        options.ClientSecret = configuration["Authentication:Google:ClientSecret"];
+//    });
 
 var app = builder.Build();
 

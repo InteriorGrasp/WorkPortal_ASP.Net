@@ -119,6 +119,9 @@ namespace WorkPortal_ASP.Net.Areas.Identity.Pages.Account
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
+
+                    // autimatically put ant new users into the role of Customer => saves to AspNetUserRoles
+                    await _userManager.AddToRoleAsync(user, "Customer");
                 {
                     _logger.LogInformation("User created a new account with password.");
 
