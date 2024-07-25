@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +21,7 @@ namespace WorkPortal_ASP.Net.Controllers
         }
 
         // GET: Attendance
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.Attendances.Include(a => a.Employee);
@@ -27,6 +29,7 @@ namespace WorkPortal_ASP.Net.Controllers
         }
 
         // GET: Attendance/Details/5
+        [AllowAnonymous]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -46,6 +49,7 @@ namespace WorkPortal_ASP.Net.Controllers
         }
 
         // GET: Attendance/Create
+        [Authorize(Roles = "Adminsitrator")]
         public IActionResult Create()
         {
             ViewData["EmployeeId"] = new SelectList(_context.Employees, "EmployeeId", "Name");
@@ -70,6 +74,7 @@ namespace WorkPortal_ASP.Net.Controllers
         }
 
         // GET: Attendance/Edit/5
+        [Authorize(Roles = "Adminsitrator")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -123,6 +128,7 @@ namespace WorkPortal_ASP.Net.Controllers
         }
 
         // GET: Attendance/Delete/5
+        [Authorize(Roles = "Adminsitrator")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -160,5 +166,6 @@ namespace WorkPortal_ASP.Net.Controllers
         {
             return _context.Attendances.Any(e => e.AttendanceId == id);
         }
+    
     }
 }

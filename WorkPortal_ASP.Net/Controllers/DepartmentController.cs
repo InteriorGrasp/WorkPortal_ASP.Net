@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WorkPortal_ASP.Net.Data;
 using WorkPortal_ASP.Net.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WorkPortal_ASP.Net.Controllers
 {
+    [Authorize(Roles="Adminstrator")]
     public class DepartmentController : Controller
     {
         private readonly ApplicationDbContext _context;
