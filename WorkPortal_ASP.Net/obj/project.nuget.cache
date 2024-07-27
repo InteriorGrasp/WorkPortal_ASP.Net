@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tnN3z9IX++U=",
+  "dgSpecHash": "ax6k3DPfc5c=",
   "success": true,
   "projectFilePath": "C:\\Users\\himan\\OneDrive\\Desktop\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net\\WorkPortal_ASP.Net.csproj",
   "expectedPackageFiles": [
@@ -57,6 +57,7 @@
     "C:\\Users\\himan\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\himan\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\himan\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\himan\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\8.0.7\\microsoft.aspnetcore.authentication.google.8.0.7.nupkg.sha512",
     "C:\\Users\\himan\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.5\\microsoft.aspnetcore.cryptography.internal.8.0.5.nupkg.sha512",
     "C:\\Users\\himan\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.5\\microsoft.aspnetcore.cryptography.keyderivation.8.0.5.nupkg.sha512",
     "C:\\Users\\himan\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\8.0.5\\microsoft.aspnetcore.diagnostics.entityframeworkcore.8.0.5.nupkg.sha512",
