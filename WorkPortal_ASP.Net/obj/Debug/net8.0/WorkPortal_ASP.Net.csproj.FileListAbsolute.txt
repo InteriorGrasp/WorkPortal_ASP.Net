@@ -1175,3 +1175,4 @@ C:\Users\himan\OneDrive\Desktop\WorkPortal_ASP.Net\WorkPortal_ASP.Net\obj\Debug\
 C:\Users\himan\OneDrive\Desktop\WorkPortal_ASP.Net\WorkPortal_ASP.Net\obj\Debug\net8.0\WorkPortal_ASP.Net.pdb
 C:\Users\himan\OneDrive\Desktop\WorkPortal_ASP.Net\WorkPortal_ASP.Net\obj\Debug\net8.0\WorkPortal_ASP.Net.genruntimeconfig.cache
 C:\Users\himan\OneDrive\Desktop\WorkPortal_ASP.Net\WorkPortal_ASP.Net\obj\Debug\net8.0\ref\WorkPortal_ASP.Net.dll
+C:\Users\himan\OneDrive\Desktop\WorkPortal_ASP.Net\WorkPortal_ASP.Net\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll

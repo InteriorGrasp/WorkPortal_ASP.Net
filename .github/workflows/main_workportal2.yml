@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy ASP.Net Core app to Azure Web App - WorkPortal-GC
+name: Build and deploy ASP.Net Core app to Azure Web App - WorkPortal2
 
 on:
   push:
@@ -51,15 +51,15 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_06563571630146E3BB0C4F677B512CF8 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_D7E916746F4344ACA897C411A8F25F86 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_A3509906296742C6BB055A42C5481E3D }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_61D93C7ADC6A47FCB8AD3C458C715B9E }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_03B3B8D84B8A407FAF1164766045C718 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_3FA44E864FB94E5CB8E99AA13A7AD6AE }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'WorkPortal-GC'
+          app-name: 'WorkPortal2'
           slot-name: 'Production'
           package: .
           
