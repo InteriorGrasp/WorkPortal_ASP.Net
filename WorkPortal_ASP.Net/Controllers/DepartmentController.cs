@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace WorkPortal_ASP.Net.Controllers
 {
-    [Authorize(Roles="Adminstrator")]
+    [Authorize]
     public class DepartmentController : Controller
     {
         private readonly ApplicationDbContext _context;

@@ -49,7 +49,7 @@ namespace WorkPortal_ASP.Net.Controllers
         }
 
         // GET: Attendance/Create
-        [Authorize(Roles = "Adminsitrator")]
+        [Authorize]
         public IActionResult Create()
         {
             ViewData["EmployeeId"] = new SelectList(_context.Employees, "EmployeeId", "Name");
@@ -128,7 +128,7 @@ namespace WorkPortal_ASP.Net.Controllers
         }
 
         // GET: Attendance/Delete/5
-        [Authorize(Roles = "Adminsitrator")]
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
